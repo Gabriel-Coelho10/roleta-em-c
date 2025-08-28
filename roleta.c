@@ -91,9 +91,9 @@ int main() {
     printf("A bolinha parou no numero: %d\n", resultado);
 
     if (resultado == escolha) {
-        printf("🎉 Voce ganhou!\n");
+        printf(" Voce ganhou!\n");
     } else {
-        printf("❌ Voce perdeu! Tente novamente.\n");
+        printf(" Voce perdeu! Tente novamente.\n");
     }
 
     destruirRoleta(roleta, nCasas);
